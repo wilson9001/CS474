@@ -1,0 +1,18 @@
+https://towardsdatascience.com/how-to-use-machine-learning-for-anomaly-detection-and-condition-monitoring-6742f82900d7 (contains link to NASA dataset)
+https://towardsdatascience.com/machine-learning-for-anomaly-detection-and-condition-monitoring-d4614e7de770 (contains implementation example in Keras)
+https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424 (contains references to a time-delay neural network, which I have not heard of before)
+https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424 (contains information on how to correctly measure effectiveness of models on time-series data)
+https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd-1f/ (another article about effectively testing models on time-series data)
+
+Possible models:
+	encoder-decoder structures, compare loss during normal operation to known anomalies
+	Recurrent neural nets, using LSTM's or GRU's
+	Simpler feed-forward deep networks
+
+Be sure to use metrics which can accurately measure predictive power of a model in time-series data
+
+Use set 2 to help speed up process of dividing data
+
+https://drive.google.com/uc?id=1SAA3j19erZxwbP38I3fiZPZ0dM2JNHDk
+
+
